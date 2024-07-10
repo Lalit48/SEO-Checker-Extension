@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SEO Checker",
+  "version": "1.0",
+  "description": "Checks website ranking and identifies SEO faults.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_popup_width": 400, 
+    "default_popup_height": 500  
+  }
+}
